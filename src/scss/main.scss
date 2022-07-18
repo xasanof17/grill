@@ -1,42 +1,73 @@
 @import '../assets/fonts/fonts.scss';
-:root{
-    --green:(114.93deg, #618967 5.11%, #72A479 94%);
+
+:root {
+    --green: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
     --white: #FFFFFF;
-    --darkGreen:#618967;
-    --grey:#CFCFCF;
-    --lightWhite:rgba(255, 255, 255, 0.05);
-    --body:linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
-    --header:#403C3B;
-    --fontG: 'Gilroy';
+    --darkGreen: #618967;
+    --grey: #CFCFCF;
+    --lightWhite: rgba(255, 255, 255, 0.05);
+    --body: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
+    --brown: #403C3B;
+    --lightBrown: #504B4A;
+    --lightBlack: rgba(34, 31, 32, 0.2);
+    // fonts
+    --font-gilroy: 'Gilroy';
+    --font-greenwich: 'Greenwich';
+    --font-proximanova: 'Proximanova';
+    --font-zingrustdemo: 'ZingRustDemo';
 }
-
-
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
 }
 
 body {
     margin: 0;
-    font-family: 'Gilroy',
-        sans-serif;
+    font-family: var(--font-gilroy);
+    background: var(--body);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.container{
+
+.container {
     max-width: 1320px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
 }
-ul{
+
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     list-style: none;
     margin-bottom: 0 !important;
     padding-left: 0 !important;
 }
-a{
+
+a {
     text-decoration: none !important;
     color: inherit;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+    color: var(--white);
+
+    &:hover {
+        color: var(--darkGreen);
+    }
+}
+main{
+    color: var(--white);
 }

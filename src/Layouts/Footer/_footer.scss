@@ -1,0 +1,132 @@
+.footer {
+  color: var(--white);
+
+  &__content {
+    @media (max-width: 768px) {
+      padding: 30px 0;
+    }
+
+    @media (max-width: 374px) {
+      position: relative;
+    }
+
+    &-button {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      &_btn {
+        width: 65px;
+        height: 65px;
+        background: var(--white);
+        border-radius: 50%;
+
+        svg {
+          width: 30px;
+          height: 30px;
+        }
+
+        @media (max-width: 768px) {
+          position: absolute;
+          top: 50%;
+          left: 3%;
+          z-index: 1;
+        }
+
+        @media (max-width: 374px) {
+          top: 90%;
+          left: 40%;
+        }
+      }
+    }
+
+    &-inner {
+      @media (max-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+      }
+
+      .logo {
+        display: block;
+        margin-bottom: 15px;
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 17px;
+        color: var(--grey);
+        max-width: 189px;
+        width: 100%;
+        @media (max-width: 768px) {
+          text-align: center;
+        }
+      }
+
+      ul {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 5px;
+
+        @media (max-width: 768px) {
+          align-items: center;
+        }
+
+        a {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 16px;
+          color: var(--white);
+          border-bottom: 1.7px solid rgba(255, 255, 255, 0.267);
+          padding-bottom: 3px;
+          cursor: pointer;
+          margin: 2px 0;
+
+          @media (max-width: 768px) {
+            margin: 5px 0;
+          }
+        }
+      }
+
+    }
+
+    &-list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @media (max-width: 768px) {
+        display: none;
+      }
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-grow: 1;
+
+        a {
+          padding: 5px 30px;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+          color: var(--white);
+          transition: .5s ease;
+          &:hover {
+            color: var(--darkGreen);
+          }
+
+          @media (max-width: 1024px) {
+            padding: 5px;
+          }
+        }
+      }
+    }
+  }
+}
