@@ -1,0 +1,42 @@
+@import '../assets/fonts/fonts.scss';
+:root{
+    --green:(114.93deg, #618967 5.11%, #72A479 94%);
+    --white: #FFFFFF;
+    --darkGreen:#618967;
+    --grey:#CFCFCF;
+    --lightWhite:rgba(255, 255, 255, 0.05);
+    --body:linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
+    --header:#403C3B;
+    --fontG: 'Gilroy';
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Gilroy',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
+}
+a{
+    text-decoration: none !important;
+    color: inherit;
+}
