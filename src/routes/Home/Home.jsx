@@ -3,12 +3,13 @@ import { Header, Navigation, Location } from "./../../components/";
 
 const Home = () => {
   return (
-   <>
-    <section className="home">
-      <Header />
-    </section>
+    <>
+      <section className="home">
+        <Header />
       <Navigation />
-      <Location/>
+      {/* <Cafe /> */}
+      <Location />
+      </section>
     </>
   );
 };

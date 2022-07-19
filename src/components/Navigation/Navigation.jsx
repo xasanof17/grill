@@ -27,13 +27,11 @@ const Navigation = () => {
           <NavigationNav>
             <NavigationNavList>
               {links.map((link) => (
-               <>
                  <NavigationNavListItem key={link.id}>
                   <NavigationNavListItemLink href={link.href}>
                     {link.name}
                   </NavigationNavListItemLink>
                 </NavigationNavListItem>
-                </>
               ))}
             </NavigationNavList>
           </NavigationNav>
