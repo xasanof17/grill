@@ -1,0 +1,23 @@
+.input {
+  height: inherit;
+  width: 100%;
+  background: var(--lightBrown);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  outline: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--white);
+  user-select: none;
+
+  &::placeholder {
+    color: var(--grey);
+  }
+
+  &:focus,
+  &:focus-visible {
+    border-color: var(--darkGreen);
+  }
+
+}
