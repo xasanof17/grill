@@ -1,42 +1,46 @@
 @import '../assets/fonts/fonts.scss';
 
 :root {
-    --green: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
-    --white: #FFFFFF;
-    --darkGreen: #618967;
-    --grey: #CFCFCF;
-    --lightWhite: rgba(255, 255, 255, 0.05);
-    --body: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
-    --brown: #403C3B;
-    --lightBrown: #504B4A;
-    --lightBlack: rgba(34, 31, 32, 0.2);
-    // fonts
-    --font-gilroy: 'Gilroy';
-    --font-greenwich: 'Greenwich';
-    --font-proximanova: 'Proximanova';
-    --font-zingrustdemo: 'ZingRustDemo';
+   --green: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+   --white: #FFFFFF;
+   --darkGreen: #618967;
+   --black: #000;
+   --dark:#2E2B2C;
+   --grey: #CFCFCF;
+   --lightWhite: rgba(255, 255, 255, 0.05);
+   --body: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
+   --brown: #403C3B;
+   --lightBrown: #504B4A;
+   --lightBlack: rgba(34, 31, 32, 0.2);
+   --lightWhiteShadow: rgba(255, 255, 255, 0.1);
+   --linkShadow: rgba(114, 164, 121, 0.3);
+   // fonts
+   --font-gilroy: 'Gilroy';
+   --font-greenwich: 'Greenwich';
+   --font-proximanova: 'Proximanova';
+   --font-zingrustdemo: 'ZingRustDemo';
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   border: none;
 }
 
 body {
-    margin: 0;
-    font-family: var(--font-gilroy);
-    background: var(--body);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+   margin: 0;
+   font-family: var(--font-gilroy);
+   background: var(--body);
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
-    max-width: 1320px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
+   max-width: 1320px;
+   width: 100%;
+   padding: 0 15px;
+   margin: 0 auto;
 }
 
 ul,
@@ -47,27 +51,28 @@ h3,
 h4,
 h5,
 h6 {
-    list-style: none;
-    margin-bottom: 0 !important;
-    padding-left: 0 !important;
+   list-style: none;
+   margin-bottom: 0 !important;
+   padding-left: 0 !important;
 }
 
 a {
-    text-decoration: none !important;
-    color: inherit;
+   text-decoration: none !important;
+   color: inherit;
 }
 
 .logo {
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 25px;
-    letter-spacing: 0.15em;
-    color: var(--white);
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 25px;
+   letter-spacing: 0.15em;
+   color: var(--white);
 
-    &:hover {
-        color: var(--darkGreen);
-    }
+   &:hover {
+      color: var(--darkGreen);
+   }
 }
-main{
-    color: var(--white);
+
+main {
+   color: var(--white);
 }

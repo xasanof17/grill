@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { Footer, Navbar } from './Layouts';
+import {  Navbar } from './Layouts';
 import {Error, Home} from './routes';
 
 
@@ -14,7 +14,7 @@ function App() {
           <Route path="*" element={<Error/>}/>
         </Routes>
       </main>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
