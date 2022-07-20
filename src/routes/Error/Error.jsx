@@ -2,8 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { GrHomeRounded } from 'react-icons/gr'
 import './_error.scss'
+import { Location } from '../../components'
 const Error = () => {
   return (
+    <>
     <section className="error">
       <div className="error-page">
         <div className="error-page_direction">
@@ -15,6 +17,8 @@ const Error = () => {
         </div>
       </div>
     </section>
+    <Location/>
+    </>
   )
 }
 export default Error

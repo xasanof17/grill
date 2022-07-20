@@ -9,6 +9,10 @@ import cafelineargradient from '../assets/img/cafelineargradient.svg'
 import onion from '../assets/img/onion.svg'
 import flash from '../assets/img/flash.svg'
 import chef from '../assets/img/chef.svg'
+import cheease from '../assets/img/cheease.svg'
+import combo from '../assets/img/combo.svg'
+import vegetarian from '../assets/img/vegetarian.svg'
+import locationsmall from '../assets/img/locationsmall.svg'
 
 const img = {
 header,
@@ -21,6 +25,10 @@ location,
 cafelineargradient,
 onion,
 flash,
-chef
+chef,
+cheease,
+combo,
+vegetarian,
+locationsmall
 }
 export default img

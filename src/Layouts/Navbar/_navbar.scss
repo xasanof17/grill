@@ -218,7 +218,7 @@
             &.showsearch {
               transform: translateY(-0%);
               bottom: -97%;
-              z-index: 1;
+              z-index: 10;
               background: var(--lightBrown);
               box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
               border-radius: 0 0 10px 10px;

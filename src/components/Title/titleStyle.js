@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const MainTitle = styled.h2`
+export const MainTitle = styled.h2 `
   font-weight: 700;
 font-size: 32px;
 line-height: 39px;
@@ -12,11 +12,14 @@ display: inline-block;
 &::before{
    content: "";
    position: absolute;
-   top: 0;
+   top: 7%;
    bottom: 0;
-   left: -15px;
-   width: 2px;
-   height: 95%;
+   left: -20px;
+   width: 4px;
+   height: 88%;
    background: var(--darkGreen);
+}
+@media (max-width: 575px) {
+font-size: 30px;
 }
 `;

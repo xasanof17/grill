@@ -1,9 +1,16 @@
 import styled from "styled-components";
 
-export const NavigationSection = styled.nav`
+export const NavigationSection = styled.nav `
 padding: 30px 0;
-background: var(--lightWhiteShadow);
+background: var(--brown);
+box-shadow: 0px 30px 60px var(--lightBlack);
+border-top: 1px solid var(--lightWhiteShadow);
 border-bottom: 1px solid var(--lightWhiteShadow);
+position: sticky;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 2;
 @media (max-width: 800px)  {  
   white-space: nowrap;
   overflow-y: hidden;
@@ -17,17 +24,17 @@ border-bottom: 1px solid var(--lightWhiteShadow);
  }
 `;
 
-export const NavigationContent = styled.div`
+export const NavigationContent = styled.div `
 
 `;
 
-export const NavigationNav = styled.div`
+export const NavigationNav = styled.div `
 @media (max-width: 1199px)  {  
    /* overflow-x: scroll; */
 }
 `;
 
-export const NavigationNavList = styled.ul`
+export const NavigationNavList = styled.ul `
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -35,7 +42,7 @@ justify-content: space-between;
 
 `;
 
-export const NavigationNavListItem = styled.li`
+export const NavigationNavListItem = styled.li `
 margin: 0 30px;
 
 &:nth-of-type(1){
@@ -65,7 +72,7 @@ margin: 0 30px;
 
 `;
 
-export const NavigationNavListItemLink = styled.a`
+export const NavigationNavListItemLink = styled.a `
 font-weight: 500;
 font-size: 18px;
 line-height: 21px;

@@ -6,9 +6,9 @@ const Home = () => {
     <>
       <section className="home">
         <Header />
-      <Navigation />
-      {/* <Cafe /> */}
-      <Location />
+        <Navigation />
+        {/* <Cafe /> */}
+        <Location />
       </section>
     </>
   );
