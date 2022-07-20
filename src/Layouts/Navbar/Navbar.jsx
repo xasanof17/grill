@@ -10,7 +10,6 @@ import { Input } from '../../components'
 
 const Navbar = () => {
   const [showSearch, setShowSearch] = useState(false)
-  const [value, setValue] = useState('')
 
   const Focused = () => {
     setShowSearch((prev) => !prev)
@@ -19,11 +18,6 @@ const Navbar = () => {
         setShowSearch(false)
       }
     })
-  }
-  const handleChange = (e) => {
-    setShowSearch(e.target.value)
-
-    console.log('value is:', e.target.value);
   }
 
   return (
@@ -44,7 +38,7 @@ const Navbar = () => {
               <div className="header-nav_content-block_search" onFocus={Focused}>
                 <form action="" className="header-nav_content-block_search-form">
                   <button className='header-nav_content-block_search-form_location'><GrLocation /></button>
-                  <Input type="search" placeholder="Введите адрес доставки" name="search" value={value} />
+                  <Input type="search" placeholder="Введите адрес доставки" name="search" />
                   <button type='submit' className='header-nav_content-block_search-form_search'><BiSearch /></button>
                 </form>
                 <div className={showSearch ? 'header-nav_content-block_search-list showsearch' : 'header-nav_content-block_search-list'}>

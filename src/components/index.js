@@ -1,1 +1,8 @@
 export {default as Input} from './Input/Input'
+export {default as Header} from './Header/Header'
+export {default as Navigation} from './Navigation/Navigation'
+export {default as Title} from './Title/Title'
+export {default as Cafe} from './Cafe/Cafe'
+export {default as Location} from './Location/Location'
+export {default as Modal} from './Modal/Modal'
+export {default as Accordion} from './Accordion/Accordion'

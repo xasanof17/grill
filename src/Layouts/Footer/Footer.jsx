@@ -27,7 +27,7 @@ const Footer = () => {
               <li><Link to='/'>О ресторане</Link></li>
               <li><Link to='/'>Условия доставки</Link></li>
               <li><Link to='/'>Возврат товара</Link></li>
-              <li><Link to='/'>Акции</Link></li>
+              <li><Link to='/action'>Акции</Link></li>
             </ul>
           </div>
         </div>

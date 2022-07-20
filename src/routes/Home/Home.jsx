@@ -1,8 +1,16 @@
-import React from 'react'
+import React from "react";
+import { Header, Navigation, Location } from "./../../components/";
 
 const Home = () => {
   return (
-    <div>Home page</div>
-  )
-}
-export default Home
+    <>
+      <section className="home">
+        <Header />
+        <Navigation />
+        {/* <Cafe /> */}
+        <Location />
+      </section>
+    </>
+  );
+};
+export default Home;

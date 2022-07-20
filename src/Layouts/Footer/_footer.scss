@@ -4,6 +4,7 @@
   &__content {
     @media (max-width: 768px) {
       padding: 30px 0;
+      height: 70vh;
     }
 
     @media (max-width: 374px) {
@@ -28,7 +29,7 @@
 
         @media (max-width: 768px) {
           position: absolute;
-          top: 50%;
+          top: 60%;
           left: 3%;
           z-index: 1;
         }
