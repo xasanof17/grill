@@ -5,6 +5,7 @@ export const DeliveryAccordion = styled.div `
 background: var(--darkGreen);
 border-radius: 10px;
 margin: 10px 0;
+user-select: none;
 &:nth-child(1){
   margin-top: 0;
 }

@@ -13,7 +13,7 @@ const Error = () => {
             <GrHomeRounded color='inherit'/> Home</Link>
         </div>
         <div className="error-page_content">
-          <h1 className='text-center text-danger'>Ooops! We can't find this page</h1>
+          <h1 className='text-center text-danger'>Ooops! This page not found</h1>
         </div>
       </div>
     </section>
