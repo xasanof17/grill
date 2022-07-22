@@ -6,6 +6,7 @@ export const LocationSection = styled.section`
   min-height: 665px;
   display: flex;
   align-items: flex-end;
+  margin-top: 50px;
   @media (max-width: 540px) {
     min-height: 700px;
     align-items: center;

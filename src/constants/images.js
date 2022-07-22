@@ -1,4 +1,5 @@
 import header from '../assets/img/header.svg'
+import headerbgsmall from '../assets/img/headerbgsmall.svg'
 import card1 from '../assets/img/card1.svg'
 import card2 from '../assets/img/card2.svg'
 import card3 from '../assets/img/card3.svg'
@@ -13,6 +14,8 @@ import cheease from '../assets/img/cheease.svg'
 import combo from '../assets/img/combo.svg'
 import vegetarian from '../assets/img/vegetarian.svg'
 import locationsmall from '../assets/img/locationsmall.svg'
+import headertitle from '../assets/img/headertitle.svg'
+import headerbtnbg from '../assets/img/headerbtnbg.svg'
 
 const img = {
 header,
@@ -29,6 +32,9 @@ chef,
 cheease,
 combo,
 vegetarian,
-locationsmall
+locationsmall,
+headertitle,
+headerbtnbg,
+headerbgsmall
 }
 export default img
