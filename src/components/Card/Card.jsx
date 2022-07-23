@@ -19,12 +19,12 @@ const Card = ({ imgSrc,productTitle,productWeight,productTxt,productDefaultCost}
   const CartKorzinka = () => {
     setClicked(true);
   };
-
+  console.log(imgSrc);
   return (
     <>
       <CardWrapper>
         <CardImg>
-          <img src={images.card1} alt="card-img" />
+          <img src={images[`${imgSrc}`]} alt="card-img" />
           <CardTopNum>
             <span>3</span>
           </CardTopNum>

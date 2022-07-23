@@ -1,6 +1,6 @@
 import React from "react";
 import { Header, Navigation, Location, Cards } from "./../../components/";
-import images from '../../constants/images'
+import images from "../../constants/images";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
         <Header />
         <Navigation />
         <Cards
-          imgSrc='card1'
+          imgSrc={images}
           title="ХОЛОДНЫЕ ЗАКУСКИ"
           productTitle="Ягненок"
           productWeight="Вес: 225 г"
